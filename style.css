@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.navbar-collapse{
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+
+.back {
+	background-image: url(https://images.khaleejtimes.com/storyimage/KT/20190714/ARTICLE/190719610/AR/0/AR-190719610.jpg&MaxW=780&imageVersion=16by9&NCS_modified=20190714145814); 
+	background-repeat: no-repeat !important;
+	background-attachment: ;
+	background-size: cover;
+	background-position: center !important;
+	height:100vh;
+
+}
+
+.navbar-brand{
+	justify-content: flex-start;
+}
+
+.navbar{
+	height: auto;
+}
+
+#middletext{
+	
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-weight: bold;
+	color: black;
+	font-size: 8vh;
+}
+
+.about{
+
+}
+
+.row{
+	margin-top: 20px;
+}
